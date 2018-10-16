@@ -1,0 +1,128 @@
+#intro {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #0d2c5a;
+    color: #fff;
+}
+
+.info {
+    width: 100%;
+	height: 100%;
+	margin-bottom: -60px;
+    text-align: center;
+    position: relative;
+    z-index: 0;
+    background: none;
+}
+
+.intro-info {
+    padding-top: 200px;
+}
+
+.info .container h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 3.750em;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: rgb(255,255,255);
+}
+
+#intro .line {
+    background-color: #5b9bbc;
+}
+
+.info .container h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.875em;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: rgb(255,255,255);
+}
+
+.social-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+.backimgcont {
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: 364px;
+    width: 1284px;
+    z-index: -999998;
+    position: absolute;
+}
+
+.backimg{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    width: 1284px;
+    height: 722.25px;
+    max-height: none;
+    max-width: none;
+    z-index: -999999;
+    left: 0px;
+    top: -179.125px;
+}
+
+.sticky-nav-wrapper{
+    padding-top: 20px;
+    height: 60px;
+}
+
+.info-nav{
+    z-index: 100;
+    position: relative;
+}
+
+.navbar a {
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+    
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
